@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw *)",
+      "Bash(mvn *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(docker compose *)",
+      "Bash(docker-compose *)",
+      "Bash(docker ps*)",
+      "Bash(docker logs*)",
+      "Bash(git status)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git add *)",
+      "Bash(git commit*)",
+      "Bash(grep *)",
+      "Bash(find . *)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(rm -rf *)",
+      "Bash(docker system prune*)"
+    ]
+  }
+}
